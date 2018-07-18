@@ -73,7 +73,7 @@
 			}, {
 				"pattern": "users:?query:",
 				"name": "userOverview",
-				"target": ["UserOverview"]
+				"target": ["UserOverviewContent"]
 			}, {
 				"pattern": "users/{userId}",
 				"name": "user",
@@ -100,6 +100,14 @@
 					"viewPath": "sap.ui.demo.nav.view.user.overview",
 					"viewName": "UserOverview",
 					"viewLevel" : 2
+				},
+				"UserOverviewContent": {
+					"parent": "UserOverview",
+					"viewId": "userOverviewContent",
+					"viewPath": "sap.ui.demo.nav.view.user.overview",
+					"viewName": "UserOverviewContent",
+					"controlId": "UserOverviewParent",
+					"controlAggregation": "content"
 				}
 			}
 		}

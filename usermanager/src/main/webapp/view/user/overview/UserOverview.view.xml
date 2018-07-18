@@ -4,45 +4,7 @@
 	<Page id="UserOverviewParent" title="{i18n>UserOverview}"
 		showNavButton="true" navButtonPress="onNavBack" class="sapUiResponsiveContentPadding">
 		<content>
-			<Table id="usersTable" items="{/Users}" itemPress="onItemPressed">
-				<headerToolbar>
-					<Toolbar>
-						<Title text="{i18n>Users}" level="H2" />
-						<ToolbarSpacer />
-						<SearchField id="searchField" search="onSearchUsersTable"
-							width="50%" />
-						<Button icon="sap-icon://sort" press="onSortButtonPressed" />
-					</Toolbar>
-				</headerToolbar>
-				<columns>
-					<Column id="userIDCol">
-						<Text text="{i18n>UserID}" />
-					</Column>
-					<Column id="firstNameCol" demandPopin="true">
-						<Text text="{i18n>formFirstName}" />
-					</Column>
-					<Column id="lastNameCol" demandPopin="true">
-						<Text text="{i18n>formLastName}" />
-					</Column>
-					<Column id="emailCol" minScreenWidth="Tablet" demandPopin="true">
-						<Text text="{i18n>formEmail}" />
-					</Column>
-					<Column id="roleCol" minScreenWidth="Tablet" demandPopin="true">
-						<Text text="{i18n>formRole}" />
-					</Column>
-				</columns>
-				<items>
-					<ColumnListItem type="Active">
-						<cells>
-							<Text text="{UserID}" />
-							<Text text="{FirstName}" />
-							<Text text="{LastName}" />
-							<Text text="{Email}" />
-							<Text text="{Role}" />
-						</cells>
-					</ColumnListItem>
-				</items>
-			</Table>
+			
 		</content>
 	</Page>
 </mvc:View>
