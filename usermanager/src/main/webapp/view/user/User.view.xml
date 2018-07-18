@@ -1,0 +1,48 @@
+<mvc:View controllerName="sap.ui.demo.nav.controller.user.User"
+	xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form"
+	busyIndicatorDelay="0">
+	<Page id="userPage" title="{i18n>UserDetailsOf} {FirstName} {LastName}"
+		showNavButton="true" navButtonPress="onNavBack" class="sapUiResponsiveContentPadding">
+		<content>
+			<Panel id="userPanel" width="auto" class="sapUiNoContentPadding">
+				<headerToolbar>
+					<Toolbar>
+						<Title text="{i18n>UserIDColon} {UserID}" level="H2" />
+					</Toolbar>
+				</headerToolbar>
+				<content>
+					<f:SimpleForm editable="false" layout="ResponsiveGridLayout"
+						labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4"
+						columnsL="1" columnsM="1">
+						<f:content>
+							<Label text="{i18n>formFirstName}" />
+							<Input value="{FirstName}" />
+							<Label text="{i18n>formLastName}" />
+							<Input value="{LastName}" />
+							<Label text="{i18n>formEmail}" />
+							<Input value="{Email}" />
+							<Label text="{i18n>formRole}" />
+							<Input value="{Role}" />
+							<Label text="{i18n>formPassword}" />
+							<Input value="********" />
+						</f:content>
+					</f:SimpleForm>
+				</content>
+			</Panel>
+		</content>
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button id="edit" press="handleEditPress" enabled="true"
+						text="Edit" />
+					<Button id="save" press="handleSavePress" text="Save"
+						visible="false" type="Emphasized" />
+					<Button id="cancel" press="handleCancelPress" text="Cancel"
+						visible="false" />
+				</contentRight>
+
+			</Bar>
+
+		</footer>
+	</Page>
+</mvc:View>

@@ -1,0 +1,74 @@
+[
+	{
+		"UserID": 1,
+		"LastName": "Davolio",
+		"FirstName": "Nancy",
+		"Email": "test@mailinator.com",
+		"Role": "Administrator",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 2,
+		"LastName": "Fuller",
+		"FirstName": "Andrew",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 3,
+		"LastName": "Leverling",
+		"FirstName": "Janet",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 4,
+		"LastName": "Peacock",
+		"FirstName": "Margaret",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 5,
+		"LastName": "Buchanan",
+		"FirstName": "Steven",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 6,
+		"LastName": "Suyama",
+		"FirstName": "Michael",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 7,
+		"LastName": "King",
+		"FirstName": "Robert",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 8,
+		"LastName": "Callahan",
+		"FirstName": "Laura",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	},
+	{
+		"UserID": 9,
+		"LastName": "Dodsworth",
+		"FirstName": "Anne",
+		"Email": "test@mailinator.com",
+		"Role": "User",
+		"Password": "jdbsjhfd"
+	}
+]
